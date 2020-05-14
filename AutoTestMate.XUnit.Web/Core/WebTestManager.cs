@@ -16,7 +16,7 @@ namespace AutoTestMate.XUnit.Web.Core
         private static WebTestManager _uniqueInstance;
         private static readonly object SyncLock = new Object();
 
-        public static WebTestManager Instance()
+        public new static WebTestManager Instance()
         {
             // Lock entire body of method
             lock (SyncLock)

@@ -14,7 +14,7 @@ namespace AutoTestMate.XUnit.Services.Core
         private static ServiceTestManager _uniqueInstance;
         private static readonly object SyncLock = new Object();
 
-        public static ServiceTestManager Instance()
+        public new static ServiceTestManager Instance()
         {
             // Lock entire body of method
             lock (SyncLock)
