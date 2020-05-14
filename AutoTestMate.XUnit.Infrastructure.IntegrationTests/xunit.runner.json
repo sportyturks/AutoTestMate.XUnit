@@ -1,0 +1,19 @@
+{
+  "$schema": "https://xunit.net/schema/current/xunit.runner.schema.json",
+  "enum-or-string-key": "value1",
+  "boolean-key": true,
+  "integer-key": 42,
+  "LogLevel": "Debug",
+  "LogName": "WebTest",
+  "BaseUrl": "https://www.google.com",
+  "Timeout": "10",
+  "OutputFileDirectory": "\\TestResults\\",
+  "OutputFileScreenshotsDirectory": "\\TestResults\\ScreenshotsDirectory\\",
+  "DriverServerLocation": "C:\\Developer\\GitHub\\AutoTestMate.MsTest.Samples\\AutoTestMate.Samples.Web.Tests\\bin\\Debug\\netcoreapp3.1",
+  "LoginWaitTime": "1",
+  "ForceKillProcess": "true",
+  "Headless": "false",
+  "BrowserType": "Chrome",
+  "EnableDetailedLogging": "false",
+  "BrowserOs": "Windows"
+}
